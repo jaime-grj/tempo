@@ -90,6 +90,11 @@
     <string name="download_storage_directory_dialog_neutral_button">Directorio</string>
     <string name="download_title_section">Descargas</string>
     <string name="download_refresh_no_changes">No se han encontrado descargas que falten</string>
+    <plurals name="download_refresh_removed">
+        <item quantity="one">Se eliminó %d descarga que faltaba.</item>
+        <item quantity="other">Se eliminaron %d descargas que faltaban.</item>
+        <item quantity="many">Se eliminaron %d descargas que faltaban.</item>
+    </plurals>
     <string name="download_refresh_button_content_description">Actualizar descargas</string>
     <string name="downloaded_bottom_sheet_add_to_queue">Añadir a la cola</string>
     <string name="downloaded_bottom_sheet_play_next">Reproducir siguiente</string>
@@ -132,6 +137,11 @@
     <string name="home_sync_starred_title">Parece que hay algunas pistas destacadas para sincronizar</string>
     <string name="home_sync_starred_albums_subtitle">Los álbumes marcados como favoritos estarán disponibles en el modo sin conexión.</string>
     <string name="home_sync_starred_artists_subtitle">Has destacado artistas con música que no has descargado</string>
+    <plurals name="home_sync_starred_songs_count">
+        <item quantity="one">1 canción necesita sincronizarse</item>
+        <item quantity="other">%d canciones necesitan sincronizarse</item>
+        <item quantity="many">%d canciones necesitan sincronizarse</item>
+    </plurals>
     <string name="home_title_best_of">Lo mejor de</string>
     <string name="home_title_discovery">Descubrir</string>
     <string name="home_title_discovery_shuffle_all_button">Todo en aleatorio</string>
@@ -508,6 +518,21 @@
     <string name="widget_content_desc_repeat">Cambiar modo de repetición</string>
     <string name="widget_content_desc_shuffle">Activar/desactivar aleatorio</string>
     <string name="widget_content_desc_prev">Pista anterior</string>
+    <plurals name="home_sync_starred_albums_count">
+        <item quantity="one">%d álbum para sincronizar</item>
+        <item quantity="other">%d álbumes para sincronizar</item>
+        <item quantity="many">%d álbumes para sincronizar</item>
+    </plurals>
+    <plurals name="home_sync_starred_artists_count">
+        <item quantity="one">%d artistas para sincronizar</item>
+        <item quantity="other">%d artistas para sincronizar</item>
+        <item quantity="many">%d artistas para sincronizar</item>
+    </plurals>
+    <plurals name="songs_download_started">
+        <item quantity="one">Descargando %d canción</item>
+        <item quantity="other">Descargando %d canciones</item>
+        <item quantity="many">Descargando %d canciones</item>
+    </plurals>
     <string name="download_refresh_no_directory">Establece una carpeta de descarga para actualizar tus descargas</string>
     <string name="home_sync_starred_artists_title">Sincronizar artistas destacados</string>
     <string name="player_queue_load_queue">Cargar cola de reproducción</string>
@@ -608,4 +633,23 @@
     <string name="settings_loudness_preamp_title">Preamplificación</string>
     <string name="settings_replay_gain_prevent_clipping_title">Evitar saturación</string>
     <string name="toolbar_navigation_drawer_open">Menú de navegación abierto</string>
+    <string name="sleep_timer_dialog_title">Temporizador de apagado</string>
+    <string name="sleep_timer_dialog_active_message">Temporizador activo — Queda %1$s</string>
+    <string name="sleep_timer_dialog_cancel_timer">Cancelar temporizador</string>
+    <string name="sleep_timer_dialog_close">Cerrar</string>
+    <string name="sleep_timer_custom_hint">Introduce la cantidad de minutos</string>
+    <string name="sleep_timer_custom_set">Establecer</string>
+    <string name="sleep_timer_dialog_end_of_track_active">Parar después de esta canción</string>
+    <string name="sleep_timer_end_of_track_label">Fin de pista</string>
+    <string-array name="sleep_timer_duration_labels">
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>60 minutos</item>
+        <item>@string/sleep_timer_end_of_track_label</item>
+        <item>Personalizado\u2026</item>
+    </string-array>
 </resources>
